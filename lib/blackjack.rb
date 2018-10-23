@@ -6,15 +6,9 @@ end
 def deal_card
   # code #deal_card here
   card = rand(1..11)
-
 end
 
 def display_card_total(card_total)
-  # code #display_card_total here
-  #card_total = 0
-  #cards.each do |i|
-   # card_total += i
-  #end
   puts "Your cards add up to #{card_total}"
 end
 
@@ -78,7 +72,5 @@ def runner
   end
   
   end_game(card_total)
-
-  
 end
     
